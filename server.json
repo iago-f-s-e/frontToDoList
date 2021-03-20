@@ -1,8 +1,34 @@
 {
-	"users": [
-			{ "id": 1, "name": "iago" },
-			{ "id": 2, "name": "iago" },
-			{ "id": 3, "name": "iago" },
-			{ "id": 4, "name": "iago" }
-	]
+  "users": [
+    {
+      "id": 1,
+      "to_do": "iago",
+      "status": false
+    },
+    {
+      "id": 2,
+      "to_do": "iago",
+      "status": false
+    },
+    {
+      "id": 3,
+      "to_do": "iago",
+      "status": false
+    },
+    {
+      "id": 4,
+      "to_do": "iago",
+      "status": false
+    },
+    {
+      "id": 5,
+      "name": "nome da tarefa",
+      "status": false
+    },
+    {
+      "id": 6,
+      "name": "nome da tarefa",
+      "status": false
+    }
+  ]
 }
