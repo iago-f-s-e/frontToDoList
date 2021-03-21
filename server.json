@@ -1,38 +1,28 @@
 {
-  "users": [
+  "tasks": [
     {
       "id": 1,
-      "name": "iago",
-      "status": false
-    },
-    {
-      "id": 2,
-      "name": "iago",
+      "name": "Fazer compras",
       "status": true
     },
     {
+      "id": 2,
+      "name": "comprar um carro",
+      "status": false
+    },
+    {
       "id": 3,
-      "name": "iago",
+      "name": "comprar um banco",
       "status": false
     },
     {
       "id": 4,
-      "name": "iago",
-      "status": true
-    },
-    {
-      "id": 5,
-      "name": "nome da tarefa",
+      "name": "comprar um banco",
       "status": false
     },
     {
-      "id": 6,
-      "name": "nome da tarefa",
-      "status": true
-    },
-    {
-      "id": 7,
-      "name": "nome da tarefa",
+      "id": 5,
+      "name": "tes",
       "status": false
     }
   ]

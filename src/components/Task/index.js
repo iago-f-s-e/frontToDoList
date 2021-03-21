@@ -10,7 +10,7 @@ const Tasks = (props) => {
   const handleStatus = async () => {
     setStatusTask(!statusTask);
 
-    await api.put(`/users/${id}`, {
+    await api.put(`/tasks/${id}`, {
       id: id,
       name: name,
       status: !statusTask  
@@ -18,7 +18,7 @@ const Tasks = (props) => {
   }
 
   return (
-    <div class="task">
+    <div className="task">
       <div className={statusTask ? "done" : "undone"} id="taskName">
         <p>{name}</p>
       </div>
