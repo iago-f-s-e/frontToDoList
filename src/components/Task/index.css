@@ -1,0 +1,39 @@
+.task {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  width: 70%;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+#taskName {
+  color: #fff;
+  display: flex;
+  border-radius: 8px 0px 0px 8px;
+  width: 80%;
+  justify-content: center;
+}
+#taskCheck {
+  color: #fff;
+  background-color: #4ab5d3;
+  display: flex;
+  border-radius: 0px 8px 8px 0px;
+  width: 20%;
+  justify-content: center;
+  transition: opacity 0.5s;
+  min-width: 5rem;
+}
+
+#taskCheck:hover {
+  opacity: 0.5  ;
+}
+
+
+.done {
+  background-color: #00ff2a;
+}
+
+.undone {
+  background-color: #20232A;
+}
